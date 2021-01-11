@@ -35,5 +35,10 @@
     "req-flash": "0.0.3",
     "socket.io": "^2.3.0",
     "supertest": "^6.0.1"
+  }，
+    "repository": {
+    "author":"Qi Lu",
+    "License":"MIT",
+    "url": "https://github.com/Ellielululu/COMP3006-FULLSTACK"
   }
 }
