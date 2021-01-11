@@ -1,0 +1,39 @@
+{
+  "name": "chatroom",
+  "version": "1.0.0",
+  "description": "full-stack development project",
+  "scripts": {
+    "test": "mocha test/*.test.js",
+    "start": "node server/server.js",
+    "dev": "nodemon server/server.js"
+  },
+  "keywords": [
+    "node.js",
+    "express",
+    "mongodb",
+    "socketio",
+    "mocha-unit test"
+  ],
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "chai": "^4.2.0",
+    "connect-mongo": "^3.0.0",
+    "cookie-parser": "^1.4.4",
+    "ejs": "^2.7.1",
+    "expect": "26.4.2",
+    "express": "^4.17.1",
+    "express-session": "^1.16.2",
+    "http": "0.0.0",
+    "jquery": "^3.5.1",
+    "jsdom": "^16.4.0",
+    "mocha": "^8.1.3",
+    "mongoose": "^5.11.9",
+    "morgan": "^1.9.1",
+    "nodemon": "^1.19.3",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0",
+    "req-flash": "0.0.3",
+    "socket.io": "^2.3.0",
+    "supertest": "^6.0.1"
+  }
+}
