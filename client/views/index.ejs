@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<%- include('head'); %>
+<body id="chat-body">
+    <div class="chat">
+        <div class="chat-screen">
+            <ul id="messages"></ul>
+        </div>
+        <div id="chat-form">
+            <form action="#" id="msgform">
+                <p>
+                    <input id="m" autocomplete="off"/>
+                </p>
+                <p>
+                    <button>Send</button>
+                </p>
+            </form>
+        </div>
+    </div>
+    <footer>
+        <label id="user-username"></label>
+        <section id="footer-link">
+            <a href="/logout">Log out</a>
+        </section>
+    </footer>
+</body>
+</html>

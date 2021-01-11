@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<%- include('head'); %>
+<body>
+    <%- include('header'); %>
+    <div class="form-con" id="login-form">
+        <div class="form-heading">
+            <h3>Login</h3>
+        </div>
+        <div class="form-body">
+            <form action="/login" method="post">
+                <div class="form-group">
+                    <label>Email</label>
+                    <input type="email" name="email"/>
+                </div>
+                <div class="form-group">
+                    <label>Password</label>
+                    <input type="password" name="password"/>
+                </div>
+                <div>
+                    <input class="submit-input" type="submit" value="Login"/>
+                </div>
+            </form>
+            <% if (loginMessage){ %>
+                <p>Message: <%= loginMessage %> </p>
+            <% } %>
+        </div>
+    </div>
+</body>
+</html>
